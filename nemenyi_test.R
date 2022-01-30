@@ -1,3 +1,4 @@
+setwd("~/Work/vuluong/R-examples")
 library(scmamp)
-res = read.csv("/home/vuluong/Study/athanh/polyp_segmentation/kiem_dinh/res.csv")
+res = read.csv("MAD.csv")
 plotCD(res, alpha=0.01)
